@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* DemoBishesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DemoBishesTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-DemoBishes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-DemoBishes.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-DemoBishes-DemoBishesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-DemoBishes-DemoBishesTests.a */; };
+		2C5B921E2BC41AFD00564CDA /* DemoBishesDev.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CA973BF2BC3F82D008AFFA4 /* DemoBishesDev.plist */; };
+		2C5B921F2BC41B0100564CDA /* DemoBishesStage.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CA973D12BC3F850008AFFA4 /* DemoBishesStage.plist */; };
+		2C6A429D2BC54ADE00249D62 /* DemoBishesDev.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CA973BF2BC3F82D008AFFA4 /* DemoBishesDev.plist */; };
+		2C6A429E2BC54AF400249D62 /* DemoBishesDev.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CA973BF2BC3F82D008AFFA4 /* DemoBishesDev.plist */; };
+		2CA973B12BC3F82D008AFFA4 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		2CA973B22BC3F82D008AFFA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2CA973B62BC3F82D008AFFA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		2CA973B72BC3F82D008AFFA4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2CA973C32BC3F850008AFFA4 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		2CA973C42BC3F850008AFFA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2CA973C82BC3F850008AFFA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		2CA973C92BC3F850008AFFA4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		3832D033780D81AB23F0192C /* libPods-DemoBishesCommonPods-DemoBishesStage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6474414B5459A4B601513A4D /* libPods-DemoBishesCommonPods-DemoBishesStage.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		B17DE88E5117BF8CDF73EB8F /* libPods-DemoBishesCommonPods-DemoBishesDev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF62E3D7B8E1A03B03EB72D8 /* libPods-DemoBishesCommonPods-DemoBishesDev.a */; };
+		B5B30C4D884450A0273E2028 /* libPods-DemoBishesCommonPods-DemoBishes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF993DAE0A24573E88F03707 /* libPods-DemoBishesCommonPods-DemoBishes.a */; };
+		EC0C091882B153351CF0E9A5 /* libPods-DemoBishesCommonPods-DemoBishesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52033252A77DC4EA7DE9CAC3 /* libPods-DemoBishesCommonPods-DemoBishesTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +50,28 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DemoBishes/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DemoBishes/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DemoBishes/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-DemoBishes-DemoBishesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoBishes-DemoBishesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15108F32355283F628C73439 /* Pods-DemoBishesCommonPods-DemoBishesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoBishesCommonPods-DemoBishesTests.release.xcconfig"; path = "Target Support Files/Pods-DemoBishesCommonPods-DemoBishesTests/Pods-DemoBishesCommonPods-DemoBishesTests.release.xcconfig"; sourceTree = "<group>"; };
+		1F0CAA22F755CEC42B4F087A /* Pods-DemoBishesCommonPods-DemoBishesDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoBishesCommonPods-DemoBishesDev.debug.xcconfig"; path = "Target Support Files/Pods-DemoBishesCommonPods-DemoBishesDev/Pods-DemoBishesCommonPods-DemoBishesDev.debug.xcconfig"; sourceTree = "<group>"; };
+		2CA973BE2BC3F82D008AFFA4 /* DemoBishesDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoBishesDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA973BF2BC3F82D008AFFA4 /* DemoBishesDev.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = DemoBishesDev.plist; path = /Users/bishessaha/Desktop/DemoBishes/ios/DemoBishesDev.plist; sourceTree = "<absolute>"; };
+		2CA973D02BC3F850008AFFA4 /* DemoBishesStage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoBishesStage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA973D12BC3F850008AFFA4 /* DemoBishesStage.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = DemoBishesStage.plist; path = /Users/bishessaha/Desktop/DemoBishes/ios/DemoBishesStage.plist; sourceTree = "<absolute>"; };
 		3B4392A12AC88292D35C810B /* Pods-DemoBishes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoBishes.debug.xcconfig"; path = "Target Support Files/Pods-DemoBishes/Pods-DemoBishes.debug.xcconfig"; sourceTree = "<group>"; };
+		52033252A77DC4EA7DE9CAC3 /* libPods-DemoBishesCommonPods-DemoBishesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoBishesCommonPods-DemoBishesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5709B34CF0A7D63546082F79 /* Pods-DemoBishes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoBishes.release.xcconfig"; path = "Target Support Files/Pods-DemoBishes/Pods-DemoBishes.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-DemoBishes-DemoBishesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoBishes-DemoBishesTests.debug.xcconfig"; path = "Target Support Files/Pods-DemoBishes-DemoBishesTests/Pods-DemoBishes-DemoBishesTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-DemoBishes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoBishes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E92C7705F15CB3F5F9E5318 /* Pods-DemoBishesCommonPods-DemoBishes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoBishesCommonPods-DemoBishes.debug.xcconfig"; path = "Target Support Files/Pods-DemoBishesCommonPods-DemoBishes/Pods-DemoBishesCommonPods-DemoBishes.debug.xcconfig"; sourceTree = "<group>"; };
+		6474414B5459A4B601513A4D /* libPods-DemoBishesCommonPods-DemoBishesStage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoBishesCommonPods-DemoBishesStage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = DemoBishes/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		828642D7B1E1509105C76BE7 /* Pods-DemoBishesCommonPods-DemoBishesStage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoBishesCommonPods-DemoBishesStage.debug.xcconfig"; path = "Target Support Files/Pods-DemoBishesCommonPods-DemoBishesStage/Pods-DemoBishesCommonPods-DemoBishesStage.debug.xcconfig"; sourceTree = "<group>"; };
+		85208A96894D3601957C0C99 /* Pods-DemoBishesCommonPods-DemoBishesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoBishesCommonPods-DemoBishesTests.debug.xcconfig"; path = "Target Support Files/Pods-DemoBishesCommonPods-DemoBishesTests/Pods-DemoBishesCommonPods-DemoBishesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-DemoBishes-DemoBishesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoBishes-DemoBishesTests.release.xcconfig"; path = "Target Support Files/Pods-DemoBishes-DemoBishesTests/Pods-DemoBishes-DemoBishesTests.release.xcconfig"; sourceTree = "<group>"; };
+		965B453D97ABF44F29618854 /* Pods-DemoBishesCommonPods-DemoBishesDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoBishesCommonPods-DemoBishesDev.release.xcconfig"; path = "Target Support Files/Pods-DemoBishesCommonPods-DemoBishesDev/Pods-DemoBishesCommonPods-DemoBishesDev.release.xcconfig"; sourceTree = "<group>"; };
+		A7C4AD30B7DDAB02E80EDDCF /* Pods-DemoBishesCommonPods-DemoBishes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoBishesCommonPods-DemoBishes.release.xcconfig"; path = "Target Support Files/Pods-DemoBishesCommonPods-DemoBishes/Pods-DemoBishesCommonPods-DemoBishes.release.xcconfig"; sourceTree = "<group>"; };
+		CFD4507194CA12FB5FF1F490 /* Pods-DemoBishesCommonPods-DemoBishesStage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoBishesCommonPods-DemoBishesStage.release.xcconfig"; path = "Target Support Files/Pods-DemoBishesCommonPods-DemoBishesStage/Pods-DemoBishesCommonPods-DemoBishesStage.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EF993DAE0A24573E88F03707 /* libPods-DemoBishesCommonPods-DemoBishes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoBishesCommonPods-DemoBishes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF62E3D7B8E1A03B03EB72D8 /* libPods-DemoBishesCommonPods-DemoBishesDev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoBishesCommonPods-DemoBishesDev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-DemoBishes-DemoBishesTests.a in Frameworks */,
+				EC0C091882B153351CF0E9A5 /* libPods-DemoBishesCommonPods-DemoBishesTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +87,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-DemoBishes.a in Frameworks */,
+				B5B30C4D884450A0273E2028 /* libPods-DemoBishesCommonPods-DemoBishes.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA973B32BC3F82D008AFFA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17DE88E5117BF8CDF73EB8F /* libPods-DemoBishesCommonPods-DemoBishesDev.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA973C52BC3F850008AFFA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3832D033780D81AB23F0192C /* libPods-DemoBishesCommonPods-DemoBishesStage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +144,10 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-DemoBishes.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-DemoBishes-DemoBishesTests.a */,
+				EF993DAE0A24573E88F03707 /* libPods-DemoBishesCommonPods-DemoBishes.a */,
+				FF62E3D7B8E1A03B03EB72D8 /* libPods-DemoBishesCommonPods-DemoBishesDev.a */,
+				6474414B5459A4B601513A4D /* libPods-DemoBishesCommonPods-DemoBishesStage.a */,
+				52033252A77DC4EA7DE9CAC3 /* libPods-DemoBishesCommonPods-DemoBishesTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,6 +168,8 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				2CA973BF2BC3F82D008AFFA4 /* DemoBishesDev.plist */,
+				2CA973D12BC3F850008AFFA4 /* DemoBishesStage.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -133,6 +181,8 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* DemoBishes.app */,
 				00E356EE1AD99517003FC87E /* DemoBishesTests.xctest */,
+				2CA973BE2BC3F82D008AFFA4 /* DemoBishesDev.app */,
+				2CA973D02BC3F850008AFFA4 /* DemoBishesStage.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +194,14 @@
 				5709B34CF0A7D63546082F79 /* Pods-DemoBishes.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-DemoBishes-DemoBishesTests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-DemoBishes-DemoBishesTests.release.xcconfig */,
+				5E92C7705F15CB3F5F9E5318 /* Pods-DemoBishesCommonPods-DemoBishes.debug.xcconfig */,
+				A7C4AD30B7DDAB02E80EDDCF /* Pods-DemoBishesCommonPods-DemoBishes.release.xcconfig */,
+				1F0CAA22F755CEC42B4F087A /* Pods-DemoBishesCommonPods-DemoBishesDev.debug.xcconfig */,
+				965B453D97ABF44F29618854 /* Pods-DemoBishesCommonPods-DemoBishesDev.release.xcconfig */,
+				828642D7B1E1509105C76BE7 /* Pods-DemoBishesCommonPods-DemoBishesStage.debug.xcconfig */,
+				CFD4507194CA12FB5FF1F490 /* Pods-DemoBishesCommonPods-DemoBishesStage.release.xcconfig */,
+				85208A96894D3601957C0C99 /* Pods-DemoBishesCommonPods-DemoBishesTests.debug.xcconfig */,
+				15108F32355283F628C73439 /* Pods-DemoBishesCommonPods-DemoBishesTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -193,13 +251,56 @@
 			productReference = 13B07F961A680F5B00A75B9A /* DemoBishes.app */;
 			productType = "com.apple.product-type.application";
 		};
+		2CA973AE2BC3F82D008AFFA4 /* DemoBishesDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CA973BB2BC3F82D008AFFA4 /* Build configuration list for PBXNativeTarget "DemoBishesDev" */;
+			buildPhases = (
+				2CA973AF2BC3F82D008AFFA4 /* [CP] Check Pods Manifest.lock */,
+				2CA973B02BC3F82D008AFFA4 /* Sources */,
+				2CA973B32BC3F82D008AFFA4 /* Frameworks */,
+				2CA973B52BC3F82D008AFFA4 /* Resources */,
+				2CA973B82BC3F82D008AFFA4 /* Bundle React Native code and images */,
+				2CA973B92BC3F82D008AFFA4 /* [CP] Embed Pods Frameworks */,
+				2CA973BA2BC3F82D008AFFA4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoBishesDev;
+			productName = DemoBishes;
+			productReference = 2CA973BE2BC3F82D008AFFA4 /* DemoBishesDev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CA973C02BC3F850008AFFA4 /* DemoBishesStage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CA973CD2BC3F850008AFFA4 /* Build configuration list for PBXNativeTarget "DemoBishesStage" */;
+			buildPhases = (
+				2CA973C12BC3F850008AFFA4 /* [CP] Check Pods Manifest.lock */,
+				2CA973C22BC3F850008AFFA4 /* Sources */,
+				2CA973C52BC3F850008AFFA4 /* Frameworks */,
+				2CA973C72BC3F850008AFFA4 /* Resources */,
+				2CA973CA2BC3F850008AFFA4 /* Bundle React Native code and images */,
+				2CA973CB2BC3F850008AFFA4 /* [CP] Embed Pods Frameworks */,
+				2CA973CC2BC3F850008AFFA4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoBishesStage;
+			productName = DemoBishes;
+			productReference = 2CA973D02BC3F850008AFFA4 /* DemoBishesStage.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1210;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -225,6 +326,8 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* DemoBishes */,
 				00E356ED1AD99517003FC87E /* DemoBishesTests */,
+				2CA973AE2BC3F82D008AFFA4 /* DemoBishesDev */,
+				2CA973C02BC3F850008AFFA4 /* DemoBishesStage */,
 			);
 		};
 /* End PBXProject section */
@@ -242,7 +345,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				2C6A429E2BC54AF400249D62 /* DemoBishesDev.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA973B52BC3F82D008AFFA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA973B62BC3F82D008AFFA4 /* LaunchScreen.storyboard in Resources */,
+				2CA973B72BC3F82D008AFFA4 /* Images.xcassets in Resources */,
+				2C5B921E2BC41AFD00564CDA /* DemoBishesDev.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA973C72BC3F850008AFFA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5B921F2BC41B0100564CDA /* DemoBishesStage.plist in Resources */,
+				2CA973C82BC3F850008AFFA4 /* LaunchScreen.storyboard in Resources */,
+				2CA973C92BC3F850008AFFA4 /* Images.xcassets in Resources */,
+				2C6A429D2BC54ADE00249D62 /* DemoBishesDev.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,15 +396,159 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemoBishes/Pods-DemoBishes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DemoBishesCommonPods-DemoBishes/Pods-DemoBishesCommonPods-DemoBishes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemoBishes/Pods-DemoBishes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DemoBishesCommonPods-DemoBishes/Pods-DemoBishesCommonPods-DemoBishes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoBishes/Pods-DemoBishes-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoBishesCommonPods-DemoBishes/Pods-DemoBishesCommonPods-DemoBishes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CA973AF2BC3F82D008AFFA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoBishesCommonPods-DemoBishesDev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CA973B82BC3F82D008AFFA4 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		2CA973B92BC3F82D008AFFA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoBishesCommonPods-DemoBishesDev/Pods-DemoBishesCommonPods-DemoBishesDev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoBishesCommonPods-DemoBishesDev/Pods-DemoBishesCommonPods-DemoBishesDev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoBishesCommonPods-DemoBishesDev/Pods-DemoBishesCommonPods-DemoBishesDev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CA973BA2BC3F82D008AFFA4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoBishesCommonPods-DemoBishesDev/Pods-DemoBishesCommonPods-DemoBishesDev-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoBishesCommonPods-DemoBishesDev/Pods-DemoBishesCommonPods-DemoBishesDev-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoBishesCommonPods-DemoBishesDev/Pods-DemoBishesCommonPods-DemoBishesDev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CA973C12BC3F850008AFFA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoBishesCommonPods-DemoBishesStage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CA973CA2BC3F850008AFFA4 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		2CA973CB2BC3F850008AFFA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoBishesCommonPods-DemoBishesStage/Pods-DemoBishesCommonPods-DemoBishesStage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoBishesCommonPods-DemoBishesStage/Pods-DemoBishesCommonPods-DemoBishesStage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoBishesCommonPods-DemoBishesStage/Pods-DemoBishesCommonPods-DemoBishesStage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CA973CC2BC3F850008AFFA4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoBishesCommonPods-DemoBishesStage/Pods-DemoBishesCommonPods-DemoBishesStage-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoBishesCommonPods-DemoBishesStage/Pods-DemoBishesCommonPods-DemoBishesStage-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoBishesCommonPods-DemoBishesStage/Pods-DemoBishesCommonPods-DemoBishesStage-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -297,7 +566,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DemoBishes-DemoBishesTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DemoBishesCommonPods-DemoBishesTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -319,7 +588,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DemoBishes-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DemoBishesCommonPods-DemoBishes-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -332,15 +601,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemoBishes-DemoBishesTests/Pods-DemoBishes-DemoBishesTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DemoBishesCommonPods-DemoBishesTests/Pods-DemoBishesCommonPods-DemoBishesTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemoBishes-DemoBishesTests/Pods-DemoBishes-DemoBishesTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DemoBishesCommonPods-DemoBishesTests/Pods-DemoBishesCommonPods-DemoBishesTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoBishes-DemoBishesTests/Pods-DemoBishes-DemoBishesTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoBishesCommonPods-DemoBishesTests/Pods-DemoBishesCommonPods-DemoBishesTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
@@ -349,15 +618,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemoBishes/Pods-DemoBishes-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DemoBishesCommonPods-DemoBishes/Pods-DemoBishesCommonPods-DemoBishes-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemoBishes/Pods-DemoBishes-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DemoBishesCommonPods-DemoBishes/Pods-DemoBishesCommonPods-DemoBishes-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoBishes/Pods-DemoBishes-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoBishesCommonPods-DemoBishes/Pods-DemoBishesCommonPods-DemoBishes-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
@@ -366,15 +635,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemoBishes-DemoBishesTests/Pods-DemoBishes-DemoBishesTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DemoBishesCommonPods-DemoBishesTests/Pods-DemoBishesCommonPods-DemoBishesTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemoBishes-DemoBishesTests/Pods-DemoBishes-DemoBishesTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DemoBishesCommonPods-DemoBishesTests/Pods-DemoBishesCommonPods-DemoBishesTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoBishes-DemoBishesTests/Pods-DemoBishes-DemoBishesTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoBishesCommonPods-DemoBishesTests/Pods-DemoBishesCommonPods-DemoBishesTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -397,6 +666,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2CA973B02BC3F82D008AFFA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA973B12BC3F82D008AFFA4 /* AppDelegate.mm in Sources */,
+				2CA973B22BC3F82D008AFFA4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA973C22BC3F850008AFFA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA973C32BC3F850008AFFA4 /* AppDelegate.mm in Sources */,
+				2CA973C42BC3F850008AFFA4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -410,7 +697,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-DemoBishes-DemoBishesTests.debug.xcconfig */;
+			baseConfigurationReference = 85208A96894D3601957C0C99 /* Pods-DemoBishesCommonPods-DemoBishesTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -437,7 +724,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-DemoBishes-DemoBishesTests.release.xcconfig */;
+			baseConfigurationReference = 15108F32355283F628C73439 /* Pods-DemoBishesCommonPods-DemoBishesTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -461,13 +748,14 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-DemoBishes.debug.xcconfig */;
+			baseConfigurationReference = 5E92C7705F15CB3F5F9E5318 /* Pods-DemoBishesCommonPods-DemoBishes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = DemoBishes/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Demo;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,12 +776,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-DemoBishes.release.xcconfig */;
+			baseConfigurationReference = A7C4AD30B7DDAB02E80EDDCF /* Pods-DemoBishesCommonPods-DemoBishes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = DemoBishes/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Demo;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -506,6 +795,118 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = DemoBishes;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2CA973BC2BC3F82D008AFFA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F0CAA22F755CEC42B4F087A /* Pods-DemoBishesCommonPods-DemoBishesDev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = DemoBishesDev.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DemoDev;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		2CA973BD2BC3F82D008AFFA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 965B453D97ABF44F29618854 /* Pods-DemoBishesCommonPods-DemoBishesDev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = DemoBishesDev.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DemoDev;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2CA973CE2BC3F850008AFFA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 828642D7B1E1509105C76BE7 /* Pods-DemoBishesCommonPods-DemoBishesStage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = DemoBishesStage.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DemoStage;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		2CA973CF2BC3F850008AFFA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFD4507194CA12FB5FF1F490 /* Pods-DemoBishesCommonPods-DemoBishesStage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = DemoBishesStage.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DemoStage;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -544,6 +945,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -580,10 +982,7 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = false;
@@ -623,6 +1022,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -651,10 +1051,7 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = false;
@@ -679,6 +1076,24 @@
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CA973BB2BC3F82D008AFFA4 /* Build configuration list for PBXNativeTarget "DemoBishesDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA973BC2BC3F82D008AFFA4 /* Debug */,
+				2CA973BD2BC3F82D008AFFA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CA973CD2BC3F850008AFFA4 /* Build configuration list for PBXNativeTarget "DemoBishesStage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA973CE2BC3F850008AFFA4 /* Debug */,
+				2CA973CF2BC3F850008AFFA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

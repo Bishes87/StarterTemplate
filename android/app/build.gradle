@@ -1,6 +1,16 @@
 apply plugin: "com.android.application"
 apply plugin: "org.jetbrains.kotlin.android"
 apply plugin: "com.facebook.react"
+// Added By Bishes 5 Apr 24
+project.ext.envConfigFiles = [
+   productiondebug: ".env.production",
+   productionrelease: ".env.production",
+   developmentrelease: ".env.development",
+   developmentdebug: ".env.development",
+   stagingrelease: ".env.staging",
+   stagingdebug: ".env.staging"
+]
+apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle" // <- add this line
 
 /**
  * This is the configuration block to customize your React Native Android app.
@@ -75,12 +85,43 @@ android {
     compileSdk rootProject.ext.compileSdkVersion
 
     namespace "com.demobishes"
+    // Added by Bishes on 5 Apr 23
+    
     defaultConfig {
         applicationId "com.demobishes"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
+    }
+    // add this block
+    flavorDimensions 'env'
+    productFlavors {
+        production {
+            minSdkVersion rootProject.ext.minSdkVersion
+            applicationId "com.demobishes"
+            targetSdkVersion rootProject.ext.targetSdkVersion
+            resValue "string", "build_config_package", "com.demobishes"
+            dimension 'env'
+            applicationIdSuffix ".development"
+        }
+        staging {
+            minSdkVersion rootProject.ext.minSdkVersion
+            applicationId "com.demobishes"
+            targetSdkVersion rootProject.ext.targetSdkVersion
+            resValue "string", "build_config_package", "com.demobishes"
+            dimension 'env'
+            applicationIdSuffix ".staging"
+        }
+        development {
+            minSdkVersion rootProject.ext.minSdkVersion
+            applicationId "com.demobishes"
+            targetSdkVersion rootProject.ext.targetSdkVersion
+            resValue "string", "build_config_package", "com.demobishes"
+            dimension 'env'
+            applicationIdSuffix ".development"
+            
+        }
     }
     signingConfigs {
         debug {
@@ -93,6 +134,7 @@ android {
     buildTypes {
         debug {
             signingConfig signingConfigs.debug
+            matchingFallbacks = ['debug', 'release'] // <- add this lines
         }
         release {
             // Caution! In production, you need to generate your own keystore file.

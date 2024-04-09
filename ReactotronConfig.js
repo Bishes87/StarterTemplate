@@ -1,10 +1,9 @@
 import Reactotron, { networking } from 'reactotron-react-native';
-import { reactotronRedux } from 'reactotron-redux';
 import EncryptedStorage from 'react-native-encrypted-storage';
 
 Reactotron.configure({
     name:"Demo",
-    host:'192.168.145.230'
+    host:'192.168.0.41'
 })
 .setAsyncStorageHandler(EncryptedStorage)
 .useReactNative()
